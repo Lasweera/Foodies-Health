@@ -13,10 +13,37 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
+        guard let windowScene = (scene as? UIWindowScene) else {return}
+        let window = UIWindow(windowScene: windowScene)
+        
+        let vc: UIViewController
+        if AuthManager.shared.isSignedIn {
+            vc = TabBarViewController()
+        }
+        else {
+            let signInVC = SignInViewController()
+            signInVC.navigationItem.largeTitleDisplayMode = .always
+            
+            let navVC = UINavigationController(rootViewController: signInVC)
+            navVC.navigationBar.prefersLargeTitles = true
+            
+            vc = navVC
+        
+        }
+        
+        window.rootViewController = vc
+        window.makeKeyAndVisible()
+        self.window = window
+     
+//        guard let _ = (scene as? UIWindowScene) else { return }
+//        guard let scene = scene as? UIWindowScene else {return}
+//        let mywindow = UIWindow(windowScene: scene)
+//        let nav = UINavigationController(rootViewController: TabBarViewController())
+//        mywindow.rootViewController = nav
+//        self.window = mywindow
+//        mywindow.makeKeyAndVisible()
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

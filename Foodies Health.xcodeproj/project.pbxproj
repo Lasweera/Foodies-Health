@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644BA9248CFED8C6921E0F0A /* Pods_Foodies_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F7754BCA81CE270A49E5D2 /* Pods_Foodies_Health.framework */; };
+		B2821FDF2989296200688404 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2821FDE2989296200688404 /* GoogleService-Info.plist */; };
+		B28C5ABE298AC089008D2A9F /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C5ABD298AC088008D2A9F /* SignInHeaderView.swift */; };
+		B291FED8298DA51F001BB2F2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B291FED7298DA51F001BB2F2 /* Alamofire */; };
 		B29739C829882E19008C749D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739C729882E19008C749D /* AppDelegate.swift */; };
 		B29739CA29882E19008C749D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739C929882E19008C749D /* SceneDelegate.swift */; };
 		B29739CC29882E19008C749D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739CB29882E19008C749D /* ViewController.swift */; };
-		B29739CF29882E19008C749D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29739CD29882E19008C749D /* Main.storyboard */; };
 		B29739D229882E19008C749D /* Foodies_Health.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B29739D029882E19008C749D /* Foodies_Health.xcdatamodeld */; };
 		B29739D429882E1A008C749D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29739D329882E1A008C749D /* Assets.xcassets */; };
 		B29739D729882E1A008C749D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29739D529882E1A008C749D /* LaunchScreen.storyboard */; };
 		B29739E229882E1A008C749D /* Foodies_HealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739E129882E1A008C749D /* Foodies_HealthTests.swift */; };
 		B29739EC29882E1A008C749D /* Foodies_HealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739EB29882E1A008C749D /* Foodies_HealthUITests.swift */; };
 		B29739EE29882E1A008C749D /* Foodies_HealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739ED29882E1A008C749D /* Foodies_HealthUITestsLaunchTests.swift */; };
+		B2973A0029883B4D008C749D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29739FF29883B4D008C749D /* ProfileViewController.swift */; };
+		B2973A0229883BD1008C749D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0129883BD1008C749D /* TabBarViewController.swift */; };
+		B2973A0429883C21008C749D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0329883C21008C749D /* SignInViewController.swift */; };
+		B2973A0629883C30008C749D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0529883C30008C749D /* SignUpViewController.swift */; };
+		B2973A0829883C9F008C749D /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0729883C9F008C749D /* FavouritesViewController.swift */; };
+		B2973A0A29883CDF008C749D /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0929883CDF008C749D /* FoodDetailsViewController.swift */; };
+		B2973A0C29883D76008C749D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0B29883D76008C749D /* Database.swift */; };
+		B2973A0E29883DD5008C749D /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0D29883DD5008C749D /* Authentication.swift */; };
+		B2973A1029883DFA008C749D /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2973A0F29883DFA008C749D /* Storage.swift */; };
+		B29DF356298E5B6300089D4B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B29DF355298E5B6300089D4B /* SnapKit */; };
+		B29DF359298E5BC900089D4B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B29DF358298E5BC900089D4B /* Kingfisher */; };
+		B2A420F929898EBF00277CDF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A420F829898EBF00277CDF /* User.swift */; };
+		B2A420FB29898EE200277CDF /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A420FA29898EE200277CDF /* Foods.swift */; };
+		B2CB1E29298C0212000CCAAA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CB1E28298C0212000CCAAA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46D5B5C4CA824674C9132C7E /* Pods-Foodies Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodies Health.debug.xcconfig"; path = "Target Support Files/Pods-Foodies Health/Pods-Foodies Health.debug.xcconfig"; sourceTree = "<group>"; };
+		65F7754BCA81CE270A49E5D2 /* Pods_Foodies_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodies_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721791FE2FADAF1FE94F2CB7 /* Pods-Foodies Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodies Health.release.xcconfig"; path = "Target Support Files/Pods-Foodies Health/Pods-Foodies Health.release.xcconfig"; sourceTree = "<group>"; };
+		B2821FDE2989296200688404 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B28C5ABD298AC088008D2A9F /* SignInHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
 		B29739C429882E19008C749D /* Foodies Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foodies Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29739C729882E19008C749D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29739C929882E19008C749D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B29739CB29882E19008C749D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B29739CE29882E19008C749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B29739D129882E19008C749D /* Foodies_Health.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodies_Health.xcdatamodel; sourceTree = "<group>"; };
 		B29739D329882E1A008C749D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29739D629882E1A008C749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,18 @@
 		B29739E729882E1A008C749D /* Foodies HealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foodies HealthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29739EB29882E1A008C749D /* Foodies_HealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodies_HealthUITests.swift; sourceTree = "<group>"; };
 		B29739ED29882E1A008C749D /* Foodies_HealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodies_HealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B29739FF29883B4D008C749D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B2973A0129883BD1008C749D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B2973A0329883C21008C749D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B2973A0529883C30008C749D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B2973A0729883C9F008C749D /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		B2973A0929883CDF008C749D /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		B2973A0B29883D76008C749D /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		B2973A0D29883DD5008C749D /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		B2973A0F29883DFA008C749D /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B2A420F829898EBF00277CDF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B2A420FA29898EE200277CDF /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		B2CB1E28298C0212000CCAAA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29DF359298E5BC900089D4B /* Kingfisher in Frameworks */,
+				B29DF356298E5B6300089D4B /* SnapKit in Frameworks */,
+				644BA9248CFED8C6921E0F0A /* Pods_Foodies_Health.framework in Frameworks */,
+				B291FED8298DA51F001BB2F2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		325D1953E957DAA8041B9761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46D5B5C4CA824674C9132C7E /* Pods-Foodies Health.debug.xcconfig */,
+				721791FE2FADAF1FE94F2CB7 /* Pods-Foodies Health.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B29739BB29882E19008C749D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				B29739E029882E1A008C749D /* Foodies HealthTests */,
 				B29739EA29882E1A008C749D /* Foodies HealthUITests */,
 				B29739C529882E19008C749D /* Products */,
+				325D1953E957DAA8041B9761 /* Pods */,
+				E5FAA347219570774643C797 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +149,12 @@
 		B29739C629882E19008C749D /* Foodies Health */ = {
 			isa = PBXGroup;
 			children = (
-				B29739C729882E19008C749D /* AppDelegate.swift */,
 				B29739C929882E19008C749D /* SceneDelegate.swift */,
-				B29739CB29882E19008C749D /* ViewController.swift */,
-				B29739CD29882E19008C749D /* Main.storyboard */,
-				B29739D329882E1A008C749D /* Assets.xcassets */,
-				B29739D529882E1A008C749D /* LaunchScreen.storyboard */,
-				B29739D829882E1A008C749D /* Info.plist */,
+				B29739FE29883642008C749D /* Others */,
+				B29739FD29883587008C749D /* Managers */,
+				B29739FC2988355E008C749D /* Controllers */,
+				B29739FB29883556008C749D /* Views */,
+				B29739FA2988353A008C749D /* Models */,
 				B29739D029882E19008C749D /* Foodies_Health.xcdatamodeld */,
 			);
 			path = "Foodies Health";
@@ -130,6 +177,68 @@
 			path = "Foodies HealthUITests";
 			sourceTree = "<group>";
 		};
+		B29739FA2988353A008C749D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B29739D829882E1A008C749D /* Info.plist */,
+				B2A420F829898EBF00277CDF /* User.swift */,
+				B2A420FA29898EE200277CDF /* Foods.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B29739FB29883556008C749D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B29739D529882E1A008C749D /* LaunchScreen.storyboard */,
+				B28C5ABD298AC088008D2A9F /* SignInHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B29739FC2988355E008C749D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B29739CB29882E19008C749D /* ViewController.swift */,
+				B29739FF29883B4D008C749D /* ProfileViewController.swift */,
+				B2973A0129883BD1008C749D /* TabBarViewController.swift */,
+				B2973A0329883C21008C749D /* SignInViewController.swift */,
+				B2973A0529883C30008C749D /* SignUpViewController.swift */,
+				B2973A0729883C9F008C749D /* FavouritesViewController.swift */,
+				B2973A0929883CDF008C749D /* FoodDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B29739FD29883587008C749D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B2973A0B29883D76008C749D /* Database.swift */,
+				B2973A0D29883DD5008C749D /* Authentication.swift */,
+				B2973A0F29883DFA008C749D /* Storage.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B29739FE29883642008C749D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B2821FDE2989296200688404 /* GoogleService-Info.plist */,
+				B29739D329882E1A008C749D /* Assets.xcassets */,
+				B29739C729882E19008C749D /* AppDelegate.swift */,
+				B2CB1E28298C0212000CCAAA /* Extensions.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E5FAA347219570774643C797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F7754BCA81CE270A49E5D2 /* Pods_Foodies_Health.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +246,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B29739F129882E1A008C749D /* Build configuration list for PBXNativeTarget "Foodies Health" */;
 			buildPhases = (
+				7EEAE3BF8EADDC4D9C0CD489 /* [CP] Check Pods Manifest.lock */,
 				B29739C029882E19008C749D /* Sources */,
 				B29739C129882E19008C749D /* Frameworks */,
 				B29739C229882E19008C749D /* Resources */,
+				9C9E46FEE52C2BBB2AF34DA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Foodies Health";
+			packageProductDependencies = (
+				B291FED7298DA51F001BB2F2 /* Alamofire */,
+				B29DF355298E5B6300089D4B /* SnapKit */,
+				B29DF358298E5BC900089D4B /* Kingfisher */,
+			);
 			productName = "Foodies Health";
 			productReference = B29739C429882E19008C749D /* Foodies Health.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +334,11 @@
 				Base,
 			);
 			mainGroup = B29739BB29882E19008C749D;
+			packageReferences = (
+				B291FED6298DA51F001BB2F2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B29DF354298E5B6200089D4B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B29DF357298E5BC900089D4B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B29739C529882E19008C749D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,7 +357,7 @@
 			files = (
 				B29739D729882E1A008C749D /* LaunchScreen.storyboard in Resources */,
 				B29739D429882E1A008C749D /* Assets.xcassets in Resources */,
-				B29739CF29882E19008C749D /* Main.storyboard in Resources */,
+				B2821FDF2989296200688404 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +377,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EEAE3BF8EADDC4D9C0CD489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodies Health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9E46FEE52C2BBB2AF34DA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodies Health/Pods-Foodies Health-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodies Health/Pods-Foodies Health-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodies Health/Pods-Foodies Health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B29739C029882E19008C749D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A420FB29898EE200277CDF /* Foods.swift in Sources */,
+				B2973A0829883C9F008C749D /* FavouritesViewController.swift in Sources */,
+				B2973A0C29883D76008C749D /* Database.swift in Sources */,
+				B2973A0429883C21008C749D /* SignInViewController.swift in Sources */,
 				B29739CC29882E19008C749D /* ViewController.swift in Sources */,
+				B2973A0629883C30008C749D /* SignUpViewController.swift in Sources */,
 				B29739D229882E19008C749D /* Foodies_Health.xcdatamodeld in Sources */,
+				B2A420F929898EBF00277CDF /* User.swift in Sources */,
+				B2973A0029883B4D008C749D /* ProfileViewController.swift in Sources */,
 				B29739C829882E19008C749D /* AppDelegate.swift in Sources */,
+				B2973A0A29883CDF008C749D /* FoodDetailsViewController.swift in Sources */,
+				B2973A0229883BD1008C749D /* TabBarViewController.swift in Sources */,
 				B29739CA29882E19008C749D /* SceneDelegate.swift in Sources */,
+				B28C5ABE298AC089008D2A9F /* SignInHeaderView.swift in Sources */,
+				B2CB1E29298C0212000CCAAA /* Extensions.swift in Sources */,
+				B2973A0E29883DD5008C749D /* Authentication.swift in Sources */,
+				B2973A1029883DFA008C749D /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +477,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B29739CD29882E19008C749D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B29739CE29882E19008C749D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B29739D529882E1A008C749D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +606,7 @@
 		};
 		B29739F229882E1A008C749D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D5B5C4CA824674C9132C7E /* Pods-Foodies Health.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,9 +617,10 @@
 				INFOPLIST_FILE = "Foodies Health/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,12 +630,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B29739F329882E1A008C749D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721791FE2FADAF1FE94F2CB7 /* Pods-Foodies Health.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,9 +647,10 @@
 				INFOPLIST_FILE = "Foodies Health/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +660,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -608,6 +780,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B291FED6298DA51F001BB2F2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B29DF354298E5B6200089D4B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		B29DF357298E5BC900089D4B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B291FED7298DA51F001BB2F2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B291FED6298DA51F001BB2F2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B29DF355298E5B6300089D4B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B29DF354298E5B6200089D4B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B29DF358298E5BC900089D4B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B29DF357298E5BC900089D4B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B29739D029882E19008C749D /* Foodies_Health.xcdatamodeld */ = {
