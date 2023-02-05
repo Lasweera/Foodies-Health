@@ -16,7 +16,7 @@ final class DatabaseManager {
     private init() {}
     
     public func inser(
-        food: Food,
+        food: Foods,
         user: User,
         completion: @escaping (Bool) -> Void
     ) {
@@ -24,14 +24,14 @@ final class DatabaseManager {
     }
    
     public func getallFood(
-        completion: @escaping ([Food]) -> Void
+        completion: @escaping ([Foods]) -> Void
     ) {
         
     }
     
     public func getFoodforUser(
         for user: User,
-        completion: @escaping ([Food]) -> Void
+        completion: @escaping ([Foods]) -> Void
     ) {
         
     }

@@ -50,17 +50,17 @@ final class StorageManager {
     }
     
     public func uploadFoodImage(
-        food: Food,
+        food: Foods,
         image: UIImage,
         completion: @escaping (Bool) -> Void
     ) {
-        
+
     }
-    
+
     public func downloadFoodHeader(
-        food: Food,
+        food: Foods,
         completion: @escaping (URL?) -> Void
-        
+
     ) {
         
     }
